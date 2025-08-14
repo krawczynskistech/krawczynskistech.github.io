@@ -1,0 +1,125 @@
+body{
+    background-color: aliceblue;
+    background-image: url("img/bg.png");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+align-content: flex-start;
+background-color: white;
+}
+.phone{
+    display: none;
+}
+
+.navigation{
+  width: 100%;
+  padding:10px;
+  background-color: white;
+}
+.sellpanel{
+  width:80%;
+  padding:10px;
+  margin-top:20px;
+  height: fit-content;
+  border-style: none;
+  background-color: white;
+  border-radius:15px 15px 15px 15px;
+  
+-webkit-box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+-moz-box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+}
+button{
+  border-color:black;
+  background-color: white;
+  padding:10px;
+  font-size:20px;
+  font-family:'Comic Sans MS';
+  a{
+    text-decoration: none;
+  }
+}
+button:hover{
+  background-color: rgb(238, 234, 234);
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+.sellbutton{
+  width:80%;
+  padding:15px;
+  font-size:20px;
+  border-radius:10px 10px 10px 10px;
+  margin:10px;
+}
+.abouttext{
+  font-size:30px;
+}
+.answer{
+  font-size:25px;
+}
+.questpanel{
+  width:97%;
+  padding:10px;
+  margin-top:20px;
+  height: fit-content;
+  border-style: none;
+  background-color: white;
+  border-radius:15px 15px 15px 15px;
+  
+-webkit-box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+-moz-box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+box-shadow: 1px 0px 29px -4px rgba(66, 68, 90, 1);
+}
+.subfaq{
+  font-family:'Times New Roman', Times, serif;
+  color:navy;
+  font-size:40px;
+}
+.question{
+  color:brown;
+  font-family:'Times New Roman', Times, serif;
+  font-size:60px;
+  
+}
+.subprize{
+  font-size:20px;
+}
+.description{
+  border-style:double;
+  border-color: navy;
+  border-width: 10px;
+  font-size:25px;
+  font-family: "Comic Sans MS";
+  padding:10px;
+}
+.buycontact{
+  font-size:25px;
+  color:rgb(128, 66, 0);
+  border-color: navy;
+  border-width: 5px;
+  border-style:dotted;
+
+}
+.example{
+  font-size:25px;
+}
+@media only screen and (max-width: 600px) {
+  .flex{
+    display:none
+  }
+  .phone{
+    display:block;
+    font-size:20px;
+  }
+  .buycontact{
+    font-size:20px;
+  }
+}
